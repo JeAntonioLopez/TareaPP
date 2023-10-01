@@ -18,8 +18,8 @@ public class Computadora implements IProducto {
     }
 
     @Override
-    public String getProducto() {
-        return "Computadora";
+    public Integer getIdProducto() {
+        return idProducto;
     }
 
     @Override

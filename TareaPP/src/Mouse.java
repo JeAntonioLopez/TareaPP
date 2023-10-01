@@ -14,8 +14,8 @@ public class Mouse implements IProducto {
     }
 
     @Override
-    public String getProducto() {
-        return "Mouse";
+    public Integer getIdProducto() {
+        return idProducto;
     }
 
     @Override

@@ -14,8 +14,8 @@ public class Monitor implements IProducto {
     }
 
     @Override
-    public String getProducto() {
-        return "Monitor";
+    public Integer getIdProducto() {
+        return idProducto;
     }
 
     @Override

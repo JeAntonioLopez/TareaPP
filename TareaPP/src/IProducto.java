@@ -1,5 +1,5 @@
 public interface IProducto {
-    String getProducto();
+    Integer getIdProducto();
     String getMarca();
     String getModelo();
     int getPrecio();
