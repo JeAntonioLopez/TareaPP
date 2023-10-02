@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39e79bdb-0490-4377-8cf8-4ff4180adc34" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../src/main/java/org/example/java/DatabaseManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../base_datos_prueba.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/org/example/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/org/example/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b805bc99-ef3e-4d4e-ba3e-1f722cc95631.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b805bc99-ef3e-4d4e-ba3e-1f722cc95631/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c012f733-9e69-4cd4-bc98-df49a4396577.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c012f733-9e69-4cd4-bc98-df49a4396577.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ddcf808c-0cba-4212-9530-997a78eaa363.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ddcf808c-0cba-4212-9530-997a78eaa363/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f22f0b58-c163-463c-91b7-cb2e3671d6e5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f22f0b58-c163-463c-91b7-cb2e3671d6e5/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/example/java/base_datos_prueba.db" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/org/example/java/base_datos_prueba.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,34 +31,34 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2WB7Rjm36sROaXRZmx0faAvs0vd" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/jeanl/OneDrive/Documents/GitHub/TareaPP",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "onboarding.tips.debug.path": "C:/Users/jeanl/OneDrive/Documents/GitHub/TareaPP/TareaPP/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jeanl/OneDrive/Documents/GitHub/TareaPP&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/jeanl/OneDrive/Documents/GitHub/TareaPP/TareaPP/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlite"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jeanl\OneDrive\Documents\GitHub\TareaPP\src\main\java\org\example\java" />
@@ -102,7 +108,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696194118805</updated>
-      <workItem from="1696194119835" duration="8680000" />
+      <workItem from="1696194119835" duration="9983000" />
+      <workItem from="1696212104954" duration="185000" />
+      <workItem from="1696212300547" duration="163000" />
     </task>
     <servers />
   </component>
