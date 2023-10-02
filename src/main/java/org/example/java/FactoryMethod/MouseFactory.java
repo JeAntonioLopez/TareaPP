@@ -1,4 +1,4 @@
-package org.example.java;
+package org.example.java.FactoryMethod;
 
 public class MouseFactory implements ProductoFactory {
     private int idProducto;

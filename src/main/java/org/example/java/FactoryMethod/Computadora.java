@@ -1,4 +1,4 @@
-package org.example.java;
+package org.example.java.FactoryMethod;
 
 public class Computadora implements IProducto {
     private int idProducto;

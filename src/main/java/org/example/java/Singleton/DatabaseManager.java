@@ -1,4 +1,4 @@
-package org.example.java;
+package org.example.java.Singleton;
 
 import java.sql.*;
 
@@ -9,7 +9,7 @@ public class DatabaseManager {
 
     private DatabaseManager() {
         try {
-            connection = DriverManager.getConnection("jdbc:sqlite:C:\\Users\\jeanl\\OneDrive\\Documents\\GitHub\\TareaPP\\src\\main\\java\\org\\example\\java\\base_datos_prueba.db");
+            connection = DriverManager.getConnection("jdbc:sqlite:C:\\Users\\jeanl\\Documents\\GitHub\\TareaPP\\src\\main\\java\\org\\example\\java\\base_datos_prueba.db");
         } catch (SQLException e) {
             e.printStackTrace();
         }

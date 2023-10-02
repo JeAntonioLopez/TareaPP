@@ -1,5 +1,7 @@
 package org.example.java;
 
+import org.example.java.Singleton.DatabaseManager;
+
 import java.sql.ResultSet;
 import java.sql.SQLException;
 

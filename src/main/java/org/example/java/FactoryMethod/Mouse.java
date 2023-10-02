@@ -1,18 +1,20 @@
-package org.example.java;
+package org.example.java.FactoryMethod;
 
-public class Monitor implements IProducto {
+import org.example.java.FactoryMethod.IProducto;
+
+public class Mouse implements IProducto {
     private int idProducto;
     private String marca;
     private String modelo;
     private int precio;
-    private String resolucion;
+    private String tipo;
 
-    public Monitor(int idProducto, String marca, String modelo, int precio, String resolucion) {
+    public Mouse(int idProducto, String marca, String modelo, int precio, String tipo) {
         this.idProducto = idProducto;
         this.marca = marca;
         this.modelo = modelo;
         this.precio = precio;
-        this.resolucion = resolucion;
+        this.tipo = tipo;
     }
 
     @Override
