@@ -1,34 +1,42 @@
 package org.example.java;
 
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.util.Scanner;
 
 public class App {
 
     public static void main(String[] args) {
         DatabaseManager databaseManager = DatabaseManager.getInstance();
+        CompraManager compraManager = new CompraManager(databaseManager);
+        AdminMenu adminMenu = new AdminMenu(compraManager);
 
-        String insertQuery1 = "INSERT INTO usuarios (nombre, edad) VALUES ('Ejemplo1', 25)";
-        String insertQuery2 = "INSERT INTO usuarios (nombre, edad) VALUES ('jeanlopez', 30)";
-        databaseManager.insertData(insertQuery1);
-        databaseManager.insertData(insertQuery2);
+        Scanner scanner = new Scanner(System.in);
+        int opcion;
 
-        System.out.println("Sample data inserted into the 'usuarios' table.");
-
-        ResultSet resultSet = databaseManager.executeQuery("SELECT * FROM usuarios");
-
-        try {
-            while (resultSet.next()) {
-                int id = resultSet.getInt("id");
-                String nombre = resultSet.getString("nombre");
-                int edad = resultSet.getInt("edad");
-
-                System.out.println("ID: " + id + ", Nombre: " + nombre + ", Edad: " + edad);
+        do {
+            System.out.println("==== Menú Principal ====");
+            System.out.println("1. Operaciones de Compra");
+            System.out.println("2. Crear Clases e Insertar Datos");
+            System.out.println("0. Salir");
+            System.out.print("Seleccione una opción: ");
+            opcion = scanner.nextInt();
+            scanner.nextLine();
+            switch (opcion) {
+                case 1:
+                    adminMenu.mostrarMenu();
+                    break;
+                case 2:
+                    CrearClasesMenu crearClasesMenu = new CrearClasesMenu(databaseManager);
+                    crearClasesMenu.mostrarMenu();
+                    break;
+                case 0:
+                    System.out.println("Saliendo del programa...");
+                    break;
+                default:
+                    System.out.println("Opción inválida. Intente nuevamente.");
             }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        } finally {
-            databaseManager.closeConnection();
-        }
+        } while (opcion != 0);
+
+
+        databaseManager.closeConnection();
     }
 }

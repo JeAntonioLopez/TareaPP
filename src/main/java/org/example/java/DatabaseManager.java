@@ -9,7 +9,7 @@ public class DatabaseManager {
 
     private DatabaseManager() {
         try {
-            connection = DriverManager.getConnection("jdbc:sqlite:C:\\Users\\jeanl\\OneDrive\\Documents\\GitHub\\TareaPP\\src\\main\\java\\org\\example\\java\\base_datos_prueba.db");
+            connection = DriverManager.getConnection("jdbc:sqlite:/home/felipe/Desktop/aaaa/src/main/java/org/example/java/base_datos_prueba.db");
         } catch (SQLException e) {
             e.printStackTrace();
         }
